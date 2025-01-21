@@ -19,6 +19,13 @@ Navigate to the project directory:
 cd LScripts
 ```
 
+## For ActiveDirectory (Windows Server)
+You might need to adjust your execution policy to allow running scripts:
+```
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+```
+
+
 ## Contributing
 Contributions are welcome! Please fork the repository and create a pull request.
 
