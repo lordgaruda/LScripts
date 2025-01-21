@@ -25,6 +25,8 @@ You might need to adjust your execution policy to allow running scripts:
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 ```
 
+## USB Restrict in Windows Server
+To revert changes, you can delete the GPO
 
 ## Contributing
 Contributions are welcome! Please fork the repository and create a pull request.
