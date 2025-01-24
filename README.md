@@ -25,6 +25,16 @@ You might need to adjust your execution policy to allow running scripts:
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 ```
 
+## For UnixCmdLog you can use crontab for automatic run at specific time
+Suppose you need to run that script at every hour.
+```
+crontab -e
+```
+Then Make a new cron tab.
+```
+* 1 * * * bash cmdlog.sh
+```
+
 ## USB Restrict in Windows Server
 To revert changes, you can delete the GPO
 
